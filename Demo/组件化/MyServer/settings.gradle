@@ -1,0 +1,6 @@
+include ':myapplication'
+include ':state'
+include ':city'
+include ':common'
+include ':app'
+rootProject.name = "My Server"

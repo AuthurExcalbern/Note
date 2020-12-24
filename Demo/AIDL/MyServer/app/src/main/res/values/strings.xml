@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Server</string>
+    <string name="current_city">当前城市：</string>
+    <string name="default_city">Default</string>
+    <string name="in">进入</string>
+    <string name="out">出来</string>
+    <string name="state1">肯德基</string>
+    <string name="state2">麦当劳</string>
+    <string name="state3">华莱士</string>
+</resources>

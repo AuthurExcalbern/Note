@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RadioGroup
+        android:id="@+id/my_radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radio_btn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:text="@string/state1"/>
+
+        <RadioButton
+            android:id="@+id/radio_btn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:checked="true"
+            android:text="@string/state2"/>
+        <RadioButton
+            android:id="@+id/radio_btn3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:text="@string/state3"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/in_state"
+        android:text="@string/in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:backgroundTint="#03A9F4"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/out_state"
+        android:text="@string/out"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:backgroundTint="#FF5722"
+        android:textSize="30sp"/>
+
+</LinearLayout>
